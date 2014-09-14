@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         // Code will evaluate when we press the button
         // Adding a comment here to test commits
         
-        //code for "Enter a Message"
+        //"Enter a Message" field
         messageLabel.hidden = false
         messageLabel.text = enterAMessageTextField.text
         enterAMessageTextField.text = ""
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         messageLabel.textColor = UIColor.redColor()
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
         
-        //code for "Enter Name"
+        //"Enter Name" field
         nameLabel.hidden = false
         nameLabel.text = enterNameTextField.text
         enterNameTextField.text = ""
